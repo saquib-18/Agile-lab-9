@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Learning Management Portal</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; }
+        header { background-color: #003366; color: white; padding: 1.5rem; text-align: center; }
+        nav { display: flex; justify-content: center; background: #002244; padding: 0.5rem; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { max-width: 1100px; margin: 20px auto; padding: 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card h2 { color: #003366; border-bottom: 2px solid #003366; padding-bottom: 5px; }
+        footer { text-align: center; padding: 1rem; background: #003366; color: white; position: fixed; width: 100%; bottom: 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>University Learning Management Portal</h1>
+        <p>Version: 1.0.0 (Stable)</p>
+    </header>
+
+    <nav>
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#resources">Resources</a>
+        <a href="#exams">Exams</a>
+    </nav>
+
+    <div class="container">
+        <div class="card" id="courses">
+            <h2>Course Information</h2>
+            <p><strong>CS101:</strong> Introduction to Computer Science</p>
+            <p><strong>CS202:</strong> DevOps & Cloud Computing</p>
+        </div>
+        <div class="card" id="faculty">
+            <h2>Faculty Profiles</h2>
+            <p><strong>Dr. Jane Doe</strong> - AI/ML Specialist</p>
+            <p><strong>Prof. John Smith</strong> - Cloud Solutions Architect</p>
+        </div>
+        <div class="card" id="resources">
+            <h2>Learning Resources</h2>
+            <ul>
+                <li>Lecture Notes - Week 1 to 8</li>
+                <li>Docker & Kubernetes Handbook</li>
+            </ul>
+        </div>
+        <div class="card" id="exams">
+            <h2>Examination Schedules</h2>
+            <p>Mid-Term: November 10, 2026</p>
+            <p>Finals: December 18, 2026</p>
+        </div>
+    </div>
+
+</body>
+</html>
